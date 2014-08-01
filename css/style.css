@@ -1,0 +1,1153 @@
+/* line 5, D:/proj/idea/valgus/sass/style.sass */
+body {
+  font-family: "Conv_PFDinTextCondPro-Regular", Sans-serif;
+  font-weight: normal;
+  background: white;
+  min-width: 1200px;
+  min-height: 200px;
+  color: #5a5a5a;
+  font-size: 18px;
+}
+
+/* line 14, D:/proj/idea/valgus/sass/style.sass */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* line 24, D:/proj/idea/valgus/sass/style.sass */
+.wrapper {
+  width: 1030px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 29, D:/proj/idea/valgus/sass/style.sass */
+.fl {
+  float: left;
+}
+
+/* line 32, D:/proj/idea/valgus/sass/style.sass */
+.fr {
+  float: right;
+}
+
+/* line 36, D:/proj/idea/valgus/sass/style.sass */
+.cb {
+  clear: both;
+}
+
+/* line 38, D:/proj/idea/valgus/sass/style.sass */
+input.error, textarea.error {
+  box-shadow: 0 0 5px red !important;
+}
+
+/* line 40, D:/proj/idea/valgus/sass/style.sass */
+label.error {
+  display: none !important;
+}
+
+/* line 2, D:/proj/idea/valgus/sass/_placeholderText.scss */
+input.placeholder {
+  color: #82a0a0;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 16px;
+}
+/* line 3, D:/proj/idea/valgus/sass/_placeholderText.scss */
+input:-moz-placeholder {
+  color: #82a0a0;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 16px;
+}
+/* line 4, D:/proj/idea/valgus/sass/_placeholderText.scss */
+input::-moz-placeholder {
+  color: #82a0a0;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 16px;
+}
+/* line 5, D:/proj/idea/valgus/sass/_placeholderText.scss */
+input:-ms-input-placeholder {
+  color: #82a0a0;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 16px;
+}
+/* line 6, D:/proj/idea/valgus/sass/_placeholderText.scss */
+input::-webkit-input-placeholder {
+  color: #82a0a0;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 16px;
+}
+
+/* line 51, D:/proj/idea/valgus/sass/style.sass */
+header, footer, .scrollHeader {
+  background: url(../img/header_bg.png) center no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+/* line 56, D:/proj/idea/valgus/sass/style.sass */
+header nav, footer nav, .scrollHeader nav {
+  float: left;
+  margin: 20px auto 0;
+}
+/* line 60, D:/proj/idea/valgus/sass/style.sass */
+header nav ul, footer nav ul, .scrollHeader nav ul {
+  font-size: 18px;
+  font-family: "conv_pfdintextcondpro-italic";
+  padding: 0;
+}
+/* line 64, D:/proj/idea/valgus/sass/style.sass */
+header nav ul li, footer nav ul li, .scrollHeader nav ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+}
+/* line 69, D:/proj/idea/valgus/sass/style.sass */
+header nav ul li:last-child, footer nav ul li:last-child, .scrollHeader nav ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+/* line 72, D:/proj/idea/valgus/sass/style.sass */
+header nav ul a, footer nav ul a, .scrollHeader nav ul a {
+  color: #375a14;
+}
+
+/* line 75, D:/proj/idea/valgus/sass/style.sass */
+.addr {
+  text-align: center;
+  margin-top: 5px;
+  color: #467828;
+  position: relative;
+}
+/* line 80, D:/proj/idea/valgus/sass/style.sass */
+.addr h2 {
+  font-size: 36px;
+  font-family: "conv_pfagoraslabpro-light";
+  margin: 0;
+  letter-spacing: 1px;
+}
+/* line 85, D:/proj/idea/valgus/sass/style.sass */
+.addr h2:before {
+  content: "";
+  background: url(../img/phone.png) center no-repeat;
+  position: absolute;
+  top: 24px;
+  left: -60px;
+  width: 39px;
+  height: 60px;
+}
+/* line 94, D:/proj/idea/valgus/sass/style.sass */
+.addr h2 span {
+  font-family: "conv_pfagoraslabpro-bold";
+}
+/* line 97, D:/proj/idea/valgus/sass/style.sass */
+.addr p {
+  font-size: 18px;
+  margin: 0;
+  font-family: "conv_pfdintextcondpro-regular";
+}
+/* line 101, D:/proj/idea/valgus/sass/style.sass */
+.addr .feedback_button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(220, 190, 30, 0.5);
+  -moz-box-shadow: inset 0 -3px 0 rgba(220, 190, 30, 0.5);
+  box-shadow: inset 0 -3px 0 rgba(220, 190, 30, 0.5);
+  border: none;
+  background: #fff5af;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f9db27), color-stop(100%, #fff5af));
+  background: -webkit-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: -moz-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: -o-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  padding: 15px 60px;
+  color: #1e1e1e;
+  float: right;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 18px;
+  text-decoration: none;
+}
+/* line 114, D:/proj/idea/valgus/sass/style.sass */
+.addr .feedback_button:hover {
+  background: #f9db27;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #fff5af), color-stop(100%, #f9db27));
+  background: -webkit-linear-gradient(bottom, #fff5af 0%, #f9db27 100%);
+  background: -moz-linear-gradient(bottom, #fff5af 0%, #f9db27 100%);
+  background: -o-linear-gradient(bottom, #fff5af 0%, #f9db27 100%);
+  background: linear-gradient(bottom, #fff5af 0%, #f9db27 100%);
+}
+
+/* line 121, D:/proj/idea/valgus/sass/style.sass */
+.top {
+  background: url(../img/top_bg.png) center no-repeat;
+  width: 1040px;
+  height: 580px;
+  position: relative;
+  margin: -442px auto 0;
+}
+/* line 127, D:/proj/idea/valgus/sass/style.sass */
+.top .text {
+  width: 370px;
+  text-align: left;
+  margin-left: 85px;
+  margin-top: 55px;
+}
+/* line 132, D:/proj/idea/valgus/sass/style.sass */
+.top .text h1 {
+  color: white;
+  font-family: "conv_pfagoraslabpro-light";
+  font-size: 60px;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 140, D:/proj/idea/valgus/sass/style.sass */
+.top .text h2 {
+  font-family: "conv_pfagoraslabpro-light";
+  font-size: 30px;
+  color: #0a3c64;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+/* line 147, D:/proj/idea/valgus/sass/style.sass */
+.top .text h3 {
+  font-size: 18px;
+  font-family: "conv_pfdintextcondpro-lightital";
+  color: #0a78a0;
+  font-weight: normal;
+  display: block;
+  background: url(../img/icon_cal.png) no-repeat left;
+  height: 60px;
+  padding-top: 22px;
+  padding-left: 80px;
+  margin: 0 0 0 -25px;
+}
+/* line 158, D:/proj/idea/valgus/sass/style.sass */
+.top .text p {
+  font-size: 18px;
+  margin-bottom: 0;
+  width: 300px;
+  font-weight: normal;
+  font-family: "conv_pfdintextcondpro-regular";
+  color: #0a78a0;
+  line-height: 17px;
+}
+/* line 167, D:/proj/idea/valgus/sass/style.sass */
+.top .text .legs {
+  position: absolute;
+  content: "";
+  background: url(../img/legs.png) no-repeat;
+  width: 320px;
+  height: 464px;
+  top: 96px;
+  left: 365px;
+  z-index: 1;
+}
+
+/* line 180, D:/proj/idea/valgus/sass/style.sass */
+.form {
+  width: 340px;
+  height: 500px;
+  background: url(../img/form_bg.png) no-repeat;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+/* line 192, D:/proj/idea/valgus/sass/style.sass */
+.form .caption h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0a78a0;
+}
+/* line 202, D:/proj/idea/valgus/sass/style.sass */
+.form .caption h5 {
+  font-family: "conv_pfagoraslabpro-light";
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  color: #0a78a0;
+  font-weight: normal;
+}
+/* line 209, D:/proj/idea/valgus/sass/style.sass */
+.form .caption h5 span {
+  font-family: "conv_pfagoraslabpro-bold";
+}
+/* line 212, D:/proj/idea/valgus/sass/style.sass */
+.form .caption h4 {
+  margin-top: 18px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: white;
+}
+
+/* line 224, D:/proj/idea/valgus/sass/style.sass */
+.frm {
+  height: 257px;
+  padding-top: 10px;
+  position: relative;
+}
+/* line 228, D:/proj/idea/valgus/sass/style.sass */
+.frm h4 {
+  text-align: center;
+  color: #46788c;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+}
+/* line 235, D:/proj/idea/valgus/sass/style.sass */
+.frm h6 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  color: #f55f78;
+  font-family: "conv_pfagoraslabpro-light";
+}
+/* line 242, D:/proj/idea/valgus/sass/style.sass */
+.frm h6:before {
+  content: "";
+  background: url(../img/phone_red.png) no-repeat;
+  width: 31px;
+  height: 45px;
+  position: absolute;
+  top: 237px;
+  left: 50px;
+}
+/* line 250, D:/proj/idea/valgus/sass/style.sass */
+.frm h6 span {
+  font-family: "conv_pfagoraslabpro-bold";
+}
+/* line 253, D:/proj/idea/valgus/sass/style.sass */
+.frm form input {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 20px;
+  width: 280px;
+  height: 60px;
+  background: white;
+  display: block;
+  margin: auto auto 10px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -2px 0 rgba(100, 210, 210, 0.55);
+  -moz-box-shadow: inset 0 -2px 0 rgba(100, 210, 210, 0.55);
+  box-shadow: inset 0 -2px 0 rgba(100, 210, 210, 0.55);
+}
+/* line 266, D:/proj/idea/valgus/sass/style.sass */
+.frm .button {
+  width: 240px;
+  height: 60px;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px auto auto;
+  font-size: 36px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background: #ff818b;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.25);
+  -moz-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.25);
+  box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.25);
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ff818b), color-stop(100%, #e5134f));
+  background: -webkit-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -moz-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -o-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+}
+/* line 282, D:/proj/idea/valgus/sass/style.sass */
+.frm .button:hover {
+  background: #e5134f;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e5134f), color-stop(100%, #ff818b));
+  background: -webkit-linear-gradient(bottom, #e5134f, #ff818b);
+  background: -moz-linear-gradient(bottom, #e5134f, #ff818b);
+  background: -o-linear-gradient(bottom, #e5134f, #ff818b);
+  background: linear-gradient(bottom, #e5134f, #ff818b);
+}
+
+/* line 288, D:/proj/idea/valgus/sass/style.sass */
+.counter {
+  margin: auto auto 0;
+  display: block;
+  text-align: center;
+}
+/* line 293, D:/proj/idea/valgus/sass/style.sass */
+.counter p {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  position: static;
+  color: #0a78a0;
+  font-family: "conv_pfagoraslabpro-light";
+  font-style: italic;
+}
+/* line 302, D:/proj/idea/valgus/sass/style.sass */
+.counter ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+/* line 308, D:/proj/idea/valgus/sass/style.sass */
+.counter ul li {
+  float: left;
+  margin: 0 10px;
+  text-align: center;
+  font-family: "bebas_neue_regularregular";
+}
+/* line 313, D:/proj/idea/valgus/sass/style.sass */
+.counter ul li span {
+  text-shadow: 0px 0px 1px #aaaaaa;
+  display: block;
+  font-size: 36px;
+  color: #0a78a0;
+  padding-top: 8px;
+  width: 70px;
+  height: 70px;
+  font-family: "conv_pfdintextcondpro-medium";
+  -webkit-border-radius: 35%;
+  -moz-border-radius: 35%;
+  -ms-border-radius: 35%;
+  -o-border-radius: 35%;
+  border-radius: 35%;
+  border: solid 2px white;
+}
+
+/* line 325, D:/proj/idea/valgus/sass/style.sass */
+.shadow {
+  background: url(../img/shadow.png) center no-repeat;
+  width: 1035px;
+  height: 64px;
+  margin: -4px auto 0;
+  display: table;
+}
+
+/* line 332, D:/proj/idea/valgus/sass/style.sass */
+.treatment {
+  background: url(../img/treatment.png) center no-repeat;
+  background-size: cover;
+  height: 750px;
+  position: relative;
+}
+/* line 337, D:/proj/idea/valgus/sass/style.sass */
+.treatment h3 {
+  font-size: 60px;
+  margin-top: 30px;
+  font-weight: normal;
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+  font-family: "conv_pfagoraslabpro-medium";
+}
+/* line 345, D:/proj/idea/valgus/sass/style.sass */
+.treatment h3 span {
+  font-family: "conv_pfagoraslabpro-thin";
+}
+/* line 347, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble {
+  width: 270px;
+  font-weight: normal;
+}
+/* line 351, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble h4 {
+  font-size: 18px;
+  color: #f55f78;
+  font-family: "conv_pfdintextcondpro-regular";
+  margin: 0;
+  padding: 0;
+}
+/* line 357, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble p {
+  font-size: 16px;
+  color: #46788c;
+  font-family: "conv_pfdintextcondpro-light";
+  margin-top: 10px;
+}
+/* line 363, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble.left1 {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  text-align: right;
+}
+/* line 368, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble.left2 {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  text-align: right;
+}
+/* line 373, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble.right1 {
+  width: 310px;
+  position: absolute;
+  top: -15px;
+  left: 670px;
+  text-align: left;
+}
+/* line 379, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble.right2 {
+  position: absolute;
+  top: 205px;
+  left: 720px;
+  text-align: left;
+}
+/* line 384, D:/proj/idea/valgus/sass/style.sass */
+.treatment .bubble.right3 {
+  position: absolute;
+  top: 400px;
+  left: 720px;
+  text-align: left;
+}
+
+/* line 392, D:/proj/idea/valgus/sass/style.sass */
+.benefits {
+  text-align: center;
+  margin-top: 60px;
+}
+/* line 395, D:/proj/idea/valgus/sass/style.sass */
+.benefits h2 {
+  font-size: 48px;
+  color: #f55f78;
+  font-weight: normal;
+  font-family: "conv_pfagoraslabpro-reg";
+  margin-top: -60px;
+  line-height: 50px;
+}
+/* line 402, D:/proj/idea/valgus/sass/style.sass */
+.benefits h2 span {
+  font-family: "conv_pfagoraslabpro-thin";
+  color: #0a78a0;
+}
+/* line 407, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+/* line 410, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items .item {
+  background: none;
+  width: 280px;
+  margin-right: 60px;
+}
+/* line 414, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items .item:last-child {
+  margin-right: 0px;
+}
+/* line 417, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items .item h4 {
+  font-size: 18px;
+  color: #0a3c64;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-weight: normal;
+  margin-top: 10px;
+}
+/* line 423, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items .review_img_border {
+  background: url(../img/review_image_border.png) no-repeat center;
+  width: 190px;
+  height: 190px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+/* line 429, D:/proj/idea/valgus/sass/style.sass */
+.benefits .items .review_img_border img {
+  border-radius: 50%;
+}
+
+/* line 431, D:/proj/idea/valgus/sass/style.sass */
+.why {
+  position: relative;
+}
+/* line 433, D:/proj/idea/valgus/sass/style.sass */
+.why h2 {
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #0a78a0;
+}
+/* line 439, D:/proj/idea/valgus/sass/style.sass */
+.why h2:before {
+  content: "";
+  position: absolute;
+  background: url(../img/arrow.png) no-repeat;
+  width: 108px;
+  height: 160px;
+  top: -110px;
+  left: 60px;
+}
+/* line 447, D:/proj/idea/valgus/sass/style.sass */
+.why .img_why_back {
+  position: absolute;
+  top: 180px;
+  left: -30px;
+}
+/* line 451, D:/proj/idea/valgus/sass/style.sass */
+.why .text {
+  width: 780px;
+}
+/* line 453, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor {
+  text-align: left;
+  width: 600px;
+  font-weight: normal;
+  position: relative;
+}
+/* line 458, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor .doctor_name {
+  font-size: 24px;
+  font-family: "conv_pfagoraslabpro-reg";
+  color: #0a78a0;
+  margin-bottom: 15px;
+}
+/* line 463, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor .doctor_work {
+  font-size: 16px;
+  font-family: "conv_pfdintextcondpro-italic";
+  color: #46788c;
+  margin-bottom: 25px;
+}
+/* line 468, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor .doctor_epilogue {
+  margin-top: 105px;
+  font-size: 24px;
+  width: 780px;
+  color: #f55f78;
+  font-family: "conv_pfagoraslabpro-bold";
+}
+/* line 474, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor .doctor_icon_why {
+  position: absolute;
+  top: -25px;
+  left: 600px;
+}
+/* line 478, D:/proj/idea/valgus/sass/style.sass */
+.why .text .doctor .doctor_signature {
+  position: absolute;
+  top: 220px;
+  left: 450px;
+}
+/* line 482, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+/* line 486, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items .text_item {
+  font-weight: normal;
+  float: left;
+  text-align: center;
+  width: 182px;
+  margin-right: 15px;
+}
+/* line 492, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items .text_item:last-child {
+  margin-right: 0;
+}
+/* line 494, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items .text_item .item_name {
+  margin-top: 18px;
+  margin-bottom: 23px;
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 18px;
+  color: #46788c;
+}
+/* line 500, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items .text_item .item_about {
+  margin-bottom: 23px;
+  font-family: "conv_pfdintextcondpro-light";
+  font-size: 14px;
+  color: #3c3c3c;
+}
+/* line 505, D:/proj/idea/valgus/sass/style.sass */
+.why .text .text_items .text_item .item_price {
+  font-family: "conv_pfdintextcondpro-light";
+  font-size: 14px;
+  color: #787878;
+}
+
+/* line 510, D:/proj/idea/valgus/sass/style.sass */
+.formWide {
+  background: url(../img/bg_formWide.png) center no-repeat;
+  height: 300px;
+  background-size: cover;
+}
+/* line 514, D:/proj/idea/valgus/sass/style.sass */
+.formWide h2 {
+  text-align: center;
+  font-family: "conv_pfagoraslabpro-light";
+  color: white;
+  font-size: 36px;
+  margin-top: 0;
+  padding-top: 40px;
+}
+/* line 521, D:/proj/idea/valgus/sass/style.sass */
+.formWide h2 span {
+  font-family: "conv_pfagoraslabpro-black";
+}
+/* line 523, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 527, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW input {
+  width: 280px;
+  height: 60px;
+  background: white;
+  -webkit-box-shadow: inset 0 -2px 0 rgba(10, 80, 120, 0.8);
+  -moz-box-shadow: inset 0 -2px 0 rgba(10, 80, 120, 0.8);
+  box-shadow: inset 0 -2px 0 rgba(10, 80, 120, 0.8);
+  border: none;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+/* line 538, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW .button {
+  width: 240px;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #ff818b;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  -moz-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ff818b), color-stop(100%, #e5134f));
+  background: -webkit-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -moz-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -o-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+}
+/* line 550, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW .button:hover {
+  background-color: #e5134f;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e5134f), color-stop(100%, #ff818b));
+  background: -webkit-linear-gradient(bottom, #e5134f 0%, #ff818b 100%);
+  background: -moz-linear-gradient(bottom, #e5134f 0%, #ff818b 100%);
+  background: -o-linear-gradient(bottom, #e5134f 0%, #ff818b 100%);
+  background: linear-gradient(bottom, #e5134f 0%, #ff818b 100%);
+}
+/* line 553, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW h3 {
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+/* line 560, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW h4 {
+  font-family: "conv_pfagoraslabpro-light";
+  font-weight: normal;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+/* line 567, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW h4:before {
+  content: "";
+  background: url(../img/phone_white.png);
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  top: 102px;
+  left: 237px;
+}
+/* line 575, D:/proj/idea/valgus/sass/style.sass */
+.formWide .frmW h4 span {
+  font-family: "conv_pfagoraslabpro-bold";
+}
+/* line 577, D:/proj/idea/valgus/sass/style.sass */
+.formWide .shadow_second {
+  margin-top: 30px;
+}
+
+/* line 581, D:/proj/idea/valgus/sass/style.sass */
+.review {
+  margin-top: 70px;
+}
+/* line 583, D:/proj/idea/valgus/sass/style.sass */
+.review h2 {
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #0a78a0;
+}
+/* line 589, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items {
+  width: 825px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 593, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item {
+  background: url(../img/review_item_bg.png);
+  width: 820px;
+  height: 280px;
+  margin-bottom: 40px;
+}
+/* line 599, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .review_item_caption {
+  position: relative;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/* line 603, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .review_item_caption .item_img_before {
+  margin-right: 60px;
+}
+/* line 605, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .review_item_caption .item_img_after {
+  margin-right: 40px;
+}
+/* line 607, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .review_item_caption .circle_before {
+  padding-left: 20px;
+  padding-top: 15px;
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  background: #f55f78;
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 105px;
+  color: white;
+}
+/* line 620, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .review_item_caption .circle_after {
+  padding-left: 5px;
+  padding-top: 16px;
+  color: white;
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 180px;
+  background: #19a59f;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #19a59f), color-stop(100%, #9fdba9));
+  background: -webkit-linear-gradient(bottom, #19a59f 0%, #9fdba9 100%);
+  background: -moz-linear-gradient(bottom, #19a59f 0%, #9fdba9 100%);
+  background: -o-linear-gradient(bottom, #19a59f 0%, #9fdba9 100%);
+  background: linear-gradient(bottom, #19a59f 0%, #9fdba9 100%);
+}
+/* line 634, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .item_name {
+  font-size: 24px;
+  color: #0a78a0;
+  margin-bottom: 5px;
+}
+/* line 638, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item .item_about {
+  font-size: 16px;
+  color: #46788c;
+}
+/* line 641, D:/proj/idea/valgus/sass/style.sass */
+.review .review_items .review_item p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 653, D:/proj/idea/valgus/sass/style.sass */
+.mln {
+  margin-top: 40px;
+}
+/* line 655, D:/proj/idea/valgus/sass/style.sass */
+.mln h2 {
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* line 662, D:/proj/idea/valgus/sass/style.sass */
+.mln h2 span {
+  color: white;
+  font-weight: bold;
+  padding-top: 55px;
+  width: 175px;
+  height: 175px;
+  display: inline-block;
+  -webkit-border-radius: 88px/88px 88px 87px 87px;
+  -moz-border-radius: 88px/88px 88px 87px 87px;
+  -ms-border-radius: 88px/88px 88px 87px 87px;
+  -o-border-radius: 88px/88px 88px 87px 87px;
+  border-radius: 88px/88px 88px 87px 87px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  -moz-box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  box-shadow: inset 0 -3px 0 rgba(150, 30, 60, 0.45);
+  background: #e5134f;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ff818b), color-stop(100%, #e5134f));
+  background: -webkit-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -moz-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: -o-linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+  background: linear-gradient(bottom, #ff818b 0%, #e5134f 100%);
+}
+/* line 675, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia {
+  background: url(../img/russia.png) left center no-repeat;
+  height: 440px;
+}
+/* line 679, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  color: #f55f78;
+  font-family: "conv_pfagoraslabpro-reg";
+}
+/* line 686, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text h4 {
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+  font-family: "conv_pfdintextcondpro-regular";
+}
+/* line 691, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 50px;
+  font-family: "conv_pfdintextcondpro-regular";
+}
+/* line 696, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text ul li {
+  display: block;
+  width: 430px;
+  height: 90px;
+  padding-left: 80px;
+  font-family: "conv_pfdintextcondpro-regular";
+}
+/* line 703, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text ul li.mln1 {
+  background: url(../img/mln1.png) left top no-repeat;
+}
+/* line 705, D:/proj/idea/valgus/sass/style.sass */
+.mln .russia .text ul li.mln2 {
+  background: url(../img/mln2.png) left top no-repeat;
+}
+
+/* line 708, D:/proj/idea/valgus/sass/style.sass */
+.work {
+  background: url(../img/work.png) center no-repeat;
+  height: 630px;
+  position: relative;
+}
+/* line 712, D:/proj/idea/valgus/sass/style.sass */
+.work h2 {
+  font-family: "conv_pfagoraslabpro-medium";
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  color: #0a78a0;
+}
+/* line 719, D:/proj/idea/valgus/sass/style.sass */
+.work .popup {
+  position: absolute;
+  display: inline-block;
+  width: 260px;
+}
+/* line 723, D:/proj/idea/valgus/sass/style.sass */
+.work .popup.up1 {
+  top: 135px;
+  right: 720px;
+}
+/* line 727, D:/proj/idea/valgus/sass/style.sass */
+.work .popup.up2 {
+  text-align: right;
+  top: 135px;
+  right: 240px;
+}
+/* line 731, D:/proj/idea/valgus/sass/style.sass */
+.work .popup.down1 {
+  top: 455px;
+  right: 720px;
+}
+/* line 734, D:/proj/idea/valgus/sass/style.sass */
+.work .popup.down2 {
+  text-align: right;
+  top: 455px;
+  right: 240px;
+}
+/* line 739, D:/proj/idea/valgus/sass/style.sass */
+.work .popup p {
+  font-family: "conv_pfdintextcondpro-regular";
+  font-size: 18px;
+  margin: 0;
+}
+
+/* line 744, D:/proj/idea/valgus/sass/style.sass */
+footer {
+  height: 200px;
+  position: relative;
+  background: url(../img/footer_bg.png) center no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+}
+/* line 751, D:/proj/idea/valgus/sass/style.sass */
+footer nav {
+  margin-top: 75px;
+}
+/* line 755, D:/proj/idea/valgus/sass/style.sass */
+footer nav ul li a {
+  color: white;
+}
+/* line 757, D:/proj/idea/valgus/sass/style.sass */
+footer .addr {
+  margin-top: 50px;
+  color: #1e1e1e;
+}
+/* line 760, D:/proj/idea/valgus/sass/style.sass */
+footer .addr p {
+  color: #8c6450;
+}
+/* line 762, D:/proj/idea/valgus/sass/style.sass */
+footer .addr h2 {
+  color: #d23232;
+}
+/* line 764, D:/proj/idea/valgus/sass/style.sass */
+footer .addr h2:before {
+  background: url(../img/phone_orange.png) no-repeat;
+}
+
+/* line 767, D:/proj/idea/valgus/sass/style.sass */
+.scrollHeader {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 50px;
+  background: rgba(164, 210, 178, 0.8);
+  z-index: 99;
+  top: 0;
+}
+/* line 776, D:/proj/idea/valgus/sass/style.sass */
+.scrollHeader nav {
+  float: left;
+  margin-top: -10px;
+}
+
+/* line 783, D:/proj/idea/valgus/sass/style.sass */
+.feedback form {
+  width: 300px;
+}
+/* line 785, D:/proj/idea/valgus/sass/style.sass */
+.feedback form h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+/* line 789, D:/proj/idea/valgus/sass/style.sass */
+.feedback form input {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding-left: 14px;
+  width: 285px;
+  height: 45px;
+  background: white;
+  display: block;
+  margin: auto auto 10px;
+  border: 1px solid darkgrey;
+}
+/* line 798, D:/proj/idea/valgus/sass/style.sass */
+.feedback form button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: #fff5af;
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f9db27), color-stop(100%, #fff5af));
+  background: -webkit-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: -moz-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: -o-linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  background: linear-gradient(bottom, #f9db27 0%, #fff5af 100%);
+  text-shadow: 0 -2px 0 rgba(90, 170, 200, 0.4);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  width: 280px;
+  height: 70px;
+  text-transform: uppercase;
+  display: block;
+  margin: 10px auto auto;
+  font-size: 26px;
+  border: none;
+}
+/* line 813, D:/proj/idea/valgus/sass/style.sass */
+.feedback form button:hover {
+  background: #f9db27;
+}
